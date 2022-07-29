@@ -1,0 +1,10 @@
+setup/
+dist/
+xournalpp-setup.exe
+xournalpp_launcher
+xournalpp.exe
+xpp.res
+portaudio
+pa_stable_*.tgz
+sox-code
+xournalpp_version.nsh

@@ -1,0 +1,127 @@
+Checks: "cppcoreguidelines*,\
+-cppcoreguidelines-pro-bounds-pointer-arithmetic,\
+-cppcoreguidelines-pro-type-cstyle-cast,\
+-readability-identifier-naming,\
+-misc-unused-parameters,\
+-cppcoreguidelines-pro-type-union-access,\
+-clang-analyzer-alpha*,\
+-google-build-using-namespace,\
+-clang-analyzer-optin.osx*,\
+-clang-analyzer-osx*,\
+-llvm-include-order,\
+-llvm-header-guard,\
+-readability-named-parameter,\
+-readability-implicit-bool-cast,\
+-readability-implicit-bool-conversion,\
+-cppcoreguidelines-pro-type-reinterpret-cast,\
+-cppcoreguidelines-pro-type-vararg,\
+-misc-move-const-arg,\
+-google-runtime-references,\
+-cert-err58-cpp,\
+-fuchsia-overloaded-operator,\
+-fuchsia-default-arguments,\
+-hicpp-vararg,\
+-clang-analyzer-optin.cplusplus.VirtualCall,\
+-cppcoreguidelines-owning-memory,\
+-*-magic-numbers,\
+-*-non-private-member-variables-in-classes,\
+-fuchsia-statically-constructed-objects,\
+-readability-isolate-declaration,\
+-fuchsia-multiple-inheritance,\
+-fuchsia-default-arguments-calls,\
+-fuchsia-trailing-return,\
+-portability-simd-intrinsics,\
+-modernize-use-nodiscard,\
+-hicpp-multiway-paths-covered,\
+-hicpp-deprecated-headers,\
+-hicpp-uppercase-literal-suffix,\
+-cert-msc32-c,\
+-cert-msc51-cpp"
+#WarningsAsErrors: '*'
+HeaderFilterRegex: '*.(h|hpp|hxx)'
+AnalyzeTemporaryDtors: false
+CheckOptions:
+  - key:             readability-identifier-naming.AbstractClassCase
+    value:           CamelCase
+  - key:             readability-identifier-naming.ClassCase
+    value:           CamelCase
+  - key:             readability-identifier-naming.ClassConstantCase
+    value:           aNy_CasE
+  - key:             readability-identifier-naming.ConstantCase
+    value:           aNy_CasE
+  - key:             readability-identifier-naming.ConstantMemberCase
+    value:           aNy_CasE
+  - key:             readability-identifier-naming.ConstantParameterCase
+    value:           aNy_CasE
+  - key:             readability-identifier-naming.ConstexprFunctionCase
+    value:           aNy_CasE
+  - key:             readability-identifier-naming.ConstexprMethodCase
+    value:           aNy_CasE
+  - key:             readability-identifier-naming.ConstexprVariableCase
+    value:           aNy_CasE
+  - key:             readability-identifier-naming.EnumCase
+    value:           CamelCase
+  - key:             readability-identifier-naming.EnumConstantCase
+    value:           CamelCase
+  - key:             readability-identifier-naming.FunctionCase
+    value:           camelBack
+  - key:             readability-identifier-naming.GlobalConstantCase
+    value:           aNy_CasE
+  - key:             readability-identifier-naming.GlobalFunctionCase
+    value:           camelBack
+  - key:             readability-identifier-naming.GlobalVariableCase
+    value:           aNy_CasE
+  - key:             readability-identifier-naming.InlineNamespaceCase
+    value:           CamelCase
+  - key:             readability-identifier-naming.LocalConstantCase
+    value:           aNy_CasE
+  - key:             readability-identifier-naming.LocalVariableCase
+    value:           aNy_CasE
+  - key:             readability-identifier-naming.MemberCase
+    value:           camelBack
+  - key:             readability-identifier-naming.MethodCase
+    value:           camelBack
+  - key:             readability-identifier-naming.NamespaceCase
+    value:           CamelCase
+  - key:             readability-identifier-naming.ParameterCase
+    value:           camelBack
+  - key:             readability-identifier-naming.StaticConstantCase
+    value:           aNy_CasE
+  - key:             readability-identifier-naming.StaticVariableCase
+    value:           camelBack
+  - key:             readability-identifier-naming.StructCase
+    value:           CamelCase
+  - key:             readability-identifier-naming.TemplateParameterCase
+    value:           CamelCase
+  - key:             readability-identifier-naming.TemplateTemplateParameterCase
+    value:           CamelCase
+  - key:             readability-identifier-naming.TypeTemplateParameterCase
+    value:           CamelCase
+  - key:             readability-identifier-naming.TypedefCase
+    value:           CamelCase
+  - key:             readability-identifier-naming.UnionCase
+    value:           CamelCase
+  - key:             readability-identifier-naming.ValueTemplateParameterCase
+    value:           CamelCase
+  - key:             readability-identifier-naming.VariableCase
+    value:           camelBack
+  - key:             cert-oop11-cpp.IncludeStyle
+    value:           'google'
+  - key:             readability-implicit-bool-conversion.AllowIntegerConditions
+    value:           '1'
+  - key:             readability-implicit-bool-conversion.AllowPointerConditions
+    value:           '1'
+  - key:             readability-implicit-bool-cast.AllowIntegerConditions
+    value:           '1'
+  - key:             readability-implicit-bool-cast.AllowPointerConditions
+    value:           '1'
+  - key:             readability-braces-around-statements.ShortStatementLines
+    value:           '1'
+  - key:             llvm-namespace-comment.ShortNamespaceLines
+    value:           '10'
+  - key:             llvm-namespace-comment.SpacesBeforeComments
+    value:           '2'
+  - key:             misc-assert-side-effect.AssertMacros
+    value:           assert
+  - key:             cppcoreguidelines-macro-usage.AllowedRegexp
+    value:           DEBUG*|GTK_*|GDK_*|G_*|RELEASE*|assert|g_assert*

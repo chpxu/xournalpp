@@ -1,0 +1,79 @@
+xournalpp (1.1.1-1) unstable; urgency=medium
+
+  * This is a new minor version of Xournal++ with many new bug fixes and improvements
+    thanks to contributions from the community.
+  * Fixed several notable UX problems such as dark mode behavior and edge panning.
+  * Fixed several crash and freeze issues, including "random" freezes caused by the
+    sidebar scrolling logic and crashing on the gcin input method.
+  * Fixed many other miscellaneous bugs and issues.
+  * See the full changelog located on GitHub
+
+ -- Bryan Tan <bryantan@technius.net>  Sun, 13 Feb 2022 11:30:45 -0800
+
+xournalpp (1.1.0-0) unstable; urgency=medium
+
+  * This is a new major version of Xournal++ with many new features, improvements,
+    and bug fixes thanks to over one year's worth of contributions from the community.
+  * See the full changelog located on GitHub
+
+ -- Roland Lötscher <roland_loetscher@hotmail.com>  Sun, 18 Jul 2021 21:49:22 +0100
+
+xournalpp (1.0.20-hotfix) unstable; urgency=medium
+
+  * Fixed an issue with packaging info for deb packages preventing installation
+
+ -- Ulrich Huber <ulrich@huberulrich.de>  Wed, 23 Dec 2020 23:19:30 +0100
+
+xournalpp (1.0.20-0) unstable; urgency=medium
+
+  * Fixed a regression with pdf files that could not be overwritten
+  * Fixed page layout update after inserting, deleting, changing page layout or zooming
+  * Fixed incorrect rendering of pages after changing the page format
+  * Fixed blocked scrolling after saving a file
+  * Fixed presentation mode after startup
+
+ -- Roland Lötscher <roland_loetscher@hotmail.com>  Thu, 17 Dec 2020 06:28:24 +0100
+
+xournalpp (1.0.19-0) unstable; urgency=medium
+
+  * Updated changelog file for 1.0.19 to show the correct version in the PPA.
+  * This changelog reflects the changes from version 1.0.18, despite it not
+    being listed in the changelog file.
+  * Quality-of-life and usability improvements.
+  * Fixed many bugs and crashes.
+  * For more details, check the full changelog located on GitHub.
+
+ -- Bryan Tan <techniux@gmail.com>  Sat, 10 Oct 2020 19:20:54 -0700
+
+xournalpp (1.0.6-0) unstable; urgency=low
+
+  * Multiple fixes and improvements
+
+ -- Andreas Butti <andreasbutti@gmail.com>  Sun, 09 Dec 2018 13:32:00 +0100
+
+xournalpp (1.0.5-0) unstable; urgency=low
+
+  * Multiple fixes and improvements
+
+ -- Andreas Butti <andreasbutti@gmail.com>  Sun, 09 Dec 2018 13:32:00 +0100
+
+xournalpp (1.0.4-0) unstable; urgency=low
+
+  * Layer Sidebar
+  * Fill option
+  * Multiple fixes and improvements
+
+ -- Andreas Butti <andreasbutti@gmail.com>  Sun, 09 Dec 2018 13:32:00 +0100
+
+xournalpp (1.0.3-0) unstable; urgency=low
+
+  * Fixed debian dependencies
+
+ -- Andreas Butti <andreasbutti@gmail.com>  Sun, 09 Dec 2018 13:32:00 +0100
+
+xournalpp (1.0.2-0) unstable; urgency=low
+
+  * Initial release Debian Packaging
+
+ -- Andreas Butti <andreasbutti@gmail.com>  Mon, 03 Dec 2018 20:00:00 +0100
+

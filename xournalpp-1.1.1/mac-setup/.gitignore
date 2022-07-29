@@ -1,0 +1,16 @@
+macdylibbundler
+Xournal++.app
+gtk-osx-build-setup.sh
+tmp-jhbuild-revision
+poppler-*
+poppler.tar.xz
+openjpeg*
+gtk-mac-bundler
+.xournalpp*
+*.zip
+gtk-mac-integration
+portaudio
+pa_stable_*.tgz
+sox-code
+libsndfile
+libzip*

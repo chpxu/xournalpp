@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleSignature</key>
+    <string>Xournal++</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.business</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.github.xournalpp</string>
+    <key>CFBundleName</key>
+    <string>Xournal++</string>
+    <key>CFBundleDisplayName</key>
+    <string>Xournal++</string>
+
+    <key>CFBundleShortVersionString</key>
+    <string>1.1.1</string>
+    <key>CFBundleVersion</key>
+    <string>1.1.1.0</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>GPL-2.0 or newer</string>
+
+    <key>LSMinimumSystemVersion</key>
+    <string>10.15</string>
+
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en-US</string>
+
+    <key>CFBundleIconFile</key>
+    <string>xournalpp.icns</string>
+    <key>NSHighResolutionCapable</key>
+    <true />
+
+    <key>CFBundleExecutable</key>
+    <string>xournalpp</string>
+    <key>LSArchitecturePriority</key>
+    <array>
+      <string>x86_64</string>
+    </array>
+    <key>NSSupportsSuddenTermination</key>
+    <false />
+
+    <key>NSDesktopFolderUsageDescription</key>
+    <string>Required to enable the internal file chooser to choose files from the desktop folder.</string>
+    <key>NSDocumentsFolderUsageDescription</key>
+    <string>Required to enable the internal file chooser to choose files from the documents folder.</string>
+    <key>NSDownloadsFolderUsageDescription</key>
+    <string>Required to enable the internal file chooser to choose files from the downloads folder.</string>
+    <key>NSNetworkVolumesUsageDescription</key>
+    <string>Required to enable the internal file chooser to choose files from network volumes.</string>
+    <key>NSRemovableVolumesUsageDescription</key>
+    <string>Required to enable the internal file chooser to choose files from removable devices.</string>
+
+    <key>LSSupportsOpeningDocumentsInPlace</key>
+    <true />
+    <key>NSDownloadsUbiquitousContents</key>
+    <true />
+
+    <key>NSHighResolutionCapable</key>
+    <true />
+    <key>NSRequiresAquaSystemAppearance</key>
+    <true />
+  </dict>
+</plist>
