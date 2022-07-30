@@ -1,3 +1,12 @@
+# Xournal++ Nord Dark
+This fork merges the changes made to `toolbar.ini` in [juansegaes's](https://github.com/juansegaes/xournalpp-nord) repo, and some colour changes to the `xournalpp.css` file to make the theme more consistent. This fork is aimed for `NixOS`, however it can be compiled regularly and produce a binary for regular consumption.
+
+When installed as part of my [dotfiles](https://github.com/chpxu/dotfiles) repo (for NixOS), my personal settings will be applied.
+
+## Installation (NixOS)
+1. Clone the repo
+2. In your `home.nix`, add the line `let xournalpp-nord = import /path/to/xournalpp-nordDark.nix; `  to the top of your `home.nix` (if using `home-manager`, otherwise adding it to `configuration.nix` should suffice).
+3. Run `home-manager switch` or `nixos-rebuild switch` depending on whether you used home-manager or the regular configuration file. 
 # Xournal++
 
 [![Build Status](https://dev.azure.com/xournalpp/xournalpp/_apis/build/status/CI?branchName=master)](https://dev.azure.com/xournalpp/xournalpp/_build/latest?definitionId=1&branchName=master)
