@@ -7,7 +7,7 @@
             type = "github";
             owner = "chpxu";
             repo = "xournalpp";
-            rev = "11764dcd5ea4948dede9639d843d719e920b6814";
+            rev = "a0b294953ed4cf07774b3bdaf4e9f8c14730dcf6";
             flake = false;
         };
         cmake = {

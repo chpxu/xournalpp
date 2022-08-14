@@ -1,5 +1,22 @@
 {
   "nodes": {
+    "cmake": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1660454247,
+        "narHash": "sha256-SyvaEsZxhdffuiu5hXG7oIt0B1Jv6GBFSTv6gzrDcc8=",
+        "owner": "Kitware",
+        "repo": "CMake",
+        "rev": "a57ad5eba3419021b7fa2533297575e0e3f6c106",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Kitware",
+        "repo": "CMake",
+        "rev": "a57ad5eba3419021b7fa2533297575e0e3f6c106",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1660462903,
@@ -17,6 +34,7 @@
     },
     "root": {
       "inputs": {
+        "cmake": "cmake",
         "nixpkgs": "nixpkgs",
         "xournalpp": "xournalpp"
       }
@@ -24,17 +42,17 @@
     "xournalpp": {
       "flake": false,
       "locked": {
-        "lastModified": 1659181394,
-        "narHash": "sha256-KOBp1k/c5GuP/VQXizg0jxGPTegc54SOc3Jo5acK3n4=",
+        "lastModified": 1660468656,
+        "narHash": "sha256-2dTwWS4E0Mg771E05EQCH/0QIYisZ484NnXn3hOvdSM=",
         "owner": "chpxu",
         "repo": "xournalpp",
-        "rev": "11764dcd5ea4948dede9639d843d719e920b6814",
+        "rev": "a0b294953ed4cf07774b3bdaf4e9f8c14730dcf6",
         "type": "github"
       },
       "original": {
         "owner": "chpxu",
         "repo": "xournalpp",
-        "rev": "11764dcd5ea4948dede9639d843d719e920b6814",
+        "rev": "a0b294953ed4cf07774b3bdaf4e9f8c14730dcf6",
         "type": "github"
       }
     }
