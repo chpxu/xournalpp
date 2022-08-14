@@ -10,9 +10,16 @@
             rev = "11764dcd5ea4948dede9639d843d719e920b6814";
             flake = false;
         };
+        cmake = {
+            type = "github";
+            owner = "Kitware";
+            repo = "CMake";
+            rev = "a57ad5eba3419021b7fa2533297575e0e3f6c106";
+            flake = false;
+        };
     };
 
-  outputs = { self, nixpkgs, xournalpp }: {
+  outputs = { self, nixpkgs, xournalpp, cmake }: {
     packages.x86_64-linux.default =
       # Notice the reference to nixpkgs here.
       with import nixpkgs { system = "x86_64-linux"; };
@@ -21,7 +28,7 @@
         src = xournalpp;
         buildInputs = [
             cmake
-            glib
+            glibcmake
             pkg-config
             gtk3
             gettext
