@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1660462903,
+        "narHash": "sha256-+YlzeWiBAQ0IZyYVvBugGsiBClmUdx03wWCtR3KO6+8=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "e523606294c61af3009b24c4b403e22b9fce08a3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "xournalpp": "xournalpp"
+      }
+    },
+    "xournalpp": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1659181394,
+        "narHash": "sha256-KOBp1k/c5GuP/VQXizg0jxGPTegc54SOc3Jo5acK3n4=",
+        "owner": "chpxu",
+        "repo": "xournalpp",
+        "rev": "11764dcd5ea4948dede9639d843d719e920b6814",
+        "type": "github"
+      },
+      "original": {
+        "owner": "chpxu",
+        "repo": "xournalpp",
+        "rev": "11764dcd5ea4948dede9639d843d719e920b6814",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

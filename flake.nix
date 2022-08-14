@@ -2,12 +2,13 @@
     description = "Xournal++ Flake with Nordic settings and theme.";
 
     inputs = {
-        nixpkgs.url = github:NixOS/nixpkgs/nixos-22.05;
+        nixpkgs.url = github:NixOS/nixpkgs;
         xournalpp = {
             type = "github";
             owner = "chpxu";
             repo = "xournalpp";
             rev = "11764dcd5ea4948dede9639d843d719e920b6814";
+            flake = false;
         };
     };
 
