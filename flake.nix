@@ -19,7 +19,7 @@
         };
     };
 
-  outputs = { self, nixpkgs, xournalpp, cmake }: {
+  outputs = { self, nixpkgs, xournalpp, cmake }: rec {
     packages.x86_64-linux.default =
       # Notice the reference to nixpkgs here.
       with import nixpkgs { system = "x86_64-linux"; };
