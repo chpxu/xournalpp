@@ -1,5 +1,5 @@
 with (import <nixpkgs> {});
-stdenv.mkDerivation {
+stdenv.mkDerivation  {
   name = "xournalpp";
   src = ./.;
   buildInputs = [ 
@@ -9,8 +9,8 @@ stdenv.mkDerivation {
     gtk3
     gettext
     wrapGAppsHook
-    # lib
-    # stdenv
+    #lib
+    #stdenv
     # fetchFromGitHub
     # gsettings-desktop-schemas
     librsvg
@@ -22,7 +22,7 @@ stdenv.mkDerivation {
     portaudio
     zlib
   ];
-  # platform = "x86_64-linux";
+  platform = "x86_64-linux";
   # configurePhase = "mkdir build && cd build";
   # buildPhase = "cmake ../../src";
   # installPhase = "cmake --build . --target install";
