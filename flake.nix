@@ -28,7 +28,7 @@
         src = xournalpp;
         buildInputs = [
             cmake
-            glibcmake
+            glib
             pkg-config
             gtk3
             gettext
