@@ -17,6 +17,117 @@
         "type": "github"
       }
     },
+    "gettext": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1658166143,
+        "narHash": "sha256-WhpuyQ1cb/YN89XJVBxXRqie874OOtgljrinYGv2/wU=",
+        "ref": "refs/heads/master",
+        "rev": "bc7fd40343afe61109ad5cb2df2d1abf3792a7d2",
+        "revCount": 7691,
+        "type": "git",
+        "url": "https://git.savannah.gnu.org/git/gettext.git"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://git.savannah.gnu.org/git/gettext.git"
+      }
+    },
+    "glib": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1659738287,
+        "narHash": "sha256-mvnLJ6XmvNkoAJlQhoWTecE0SLVAiCAfn9t3/p03uDg=",
+        "owner": "GNOME",
+        "repo": "glib",
+        "rev": "1edb3c515ad30b5b0a206912c4a2e5936ea9393a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "GNOME",
+        "repo": "glib",
+        "rev": "1edb3c515ad30b5b0a206912c4a2e5936ea9393a",
+        "type": "github"
+      }
+    },
+    "gtk3": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-1AZPsMRibAnck5LOZYO18MgovPtip0QzrHwszPGAs8M=",
+        "type": "tarball",
+        "url": "https://download.gnome.org/sources/gtk+/3.24/gtk%2B-3.24.34.tar.xz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://download.gnome.org/sources/gtk+/3.24/gtk%2B-3.24.34.tar.xz"
+      }
+    },
+    "librsvg": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1660846540,
+        "narHash": "sha256-j0Sk3go/O1+jjQiUfZANzKzLcKVMs+rfYMK6IxTlwjk=",
+        "ref": "refs/heads/main",
+        "rev": "c30cd2b9f08558fd4d71d7ee95869141c0116de8",
+        "revCount": 8358,
+        "type": "git",
+        "url": "https://gitlab.gnome.org/GNOME/librsvg"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://gitlab.gnome.org/GNOME/librsvg"
+      }
+    },
+    "libsndfile": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1659767073,
+        "narHash": "sha256-CKIm65EaVtt6q5vwaJ7QUlnqatnJ41lKDCsqT9OCoQc=",
+        "owner": "libsndfile",
+        "repo": "libsndfile",
+        "rev": "36216ba105fb22c625955c056d4935b733945702",
+        "type": "github"
+      },
+      "original": {
+        "owner": "libsndfile",
+        "repo": "libsndfile",
+        "rev": "36216ba105fb22c625955c056d4935b733945702",
+        "type": "github"
+      }
+    },
+    "libxml2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1661007790,
+        "narHash": "sha256-EDGmzYVip7dnYpy25sVxX9GueMeMQNfPP/KXG17YUNI=",
+        "ref": "refs/heads/master",
+        "rev": "c21e9cd5d955e4d8afa514e1f7736ce6a9bb8f2e",
+        "revCount": 5406,
+        "type": "git",
+        "url": "https://gitlab.gnome.org/GNOME/libxml2"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://gitlab.gnome.org/GNOME/libxml2"
+      }
+    },
+    "libzip": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1660215012,
+        "narHash": "sha256-wLZonXwLj0mTl/6dMJWvmBVv5NYXUivDs1k024C7QVc=",
+        "owner": "nih-at",
+        "repo": "libzip",
+        "rev": "72dd08690a03f922d1ee53210e7fc3ee76bae331",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nih-at",
+        "repo": "libzip",
+        "rev": "72dd08690a03f922d1ee53210e7fc3ee76bae331",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1660467454,
@@ -32,27 +143,52 @@
         "type": "github"
       }
     },
+    "pkg-config": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1611517356,
+        "narHash": "sha256-98RzTHkL6xV9ioxRks1pVZUEktkIxa3e1vpebeH6t4Y=",
+        "ref": "master",
+        "rev": "d97db4fae4c1cd099b506970b285dc2afd818ea2",
+        "revCount": 513,
+        "type": "git",
+        "url": "https://gitlab.freedesktop.org/pkg-config/pkg-config"
+      },
+      "original": {
+        "ref": "master",
+        "type": "git",
+        "url": "https://gitlab.freedesktop.org/pkg-config/pkg-config"
+      }
+    },
     "root": {
       "inputs": {
         "cmake": "cmake",
+        "gettext": "gettext",
+        "glib": "glib",
+        "gtk3": "gtk3",
+        "librsvg": "librsvg",
+        "libsndfile": "libsndfile",
+        "libxml2": "libxml2",
+        "libzip": "libzip",
         "nixpkgs": "nixpkgs",
+        "pkg-config": "pkg-config",
         "xournalpp": "xournalpp"
       }
     },
     "xournalpp": {
       "flake": false,
       "locked": {
-        "lastModified": 1660468656,
-        "narHash": "sha256-2dTwWS4E0Mg771E05EQCH/0QIYisZ484NnXn3hOvdSM=",
+        "lastModified": 1660469505,
+        "narHash": "sha256-13vbs3ZBp3S4+tJ4a8bi8kRbijNtznAU7Pcq35zwrlE=",
         "owner": "chpxu",
         "repo": "xournalpp",
-        "rev": "a0b294953ed4cf07774b3bdaf4e9f8c14730dcf6",
+        "rev": "affbbbd1922e1a8b4bd8d3aaeea9d8f232e398f6",
         "type": "github"
       },
       "original": {
         "owner": "chpxu",
         "repo": "xournalpp",
-        "rev": "a0b294953ed4cf07774b3bdaf4e9f8c14730dcf6",
+        "rev": "affbbbd1922e1a8b4bd8d3aaeea9d8f232e398f6",
         "type": "github"
       }
     }
